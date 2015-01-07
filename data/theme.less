@@ -15,18 +15,6 @@
 @import "../bower_components/bootstrap/less/glyphicons.less";
 @import "../bower_components/bootstrap/less/buttons.less";
 
-.section-tan {
-  background-color: @section-bg-tan;
-}
-.section-blue {
-  background-color: @section-bg-blue;
-}
-
-div.row.featurette .col-md-7, div.row.featurette .col-md-5 {
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
-
 /*
 @import "../bower_components/bootstrap/less/breadcrumbs.less";
 @import "../bower_components/bootstrap/less/button-groups.less";
@@ -57,3 +45,83 @@ div.row.featurette .col-md-7, div.row.featurette .col-md-5 {
 @import "../bower_components/bootstrap/less/utilities.less";
 @import "../bower_components/bootstrap/less/wells.less";
 */
+
+.section-tan {
+  background-color: @section-bg-tan;
+}
+.section-blue {
+  background-color: @section-bg-blue;
+}
+footer {
+  margin-top: 40px;
+}
+.section-top {
+  padding-top: 40px;
+}
+div.row.featurette .col-md-7, div.row.featurette .col-md-5 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+div.section-spacer {
+  height: 50px;
+}
+
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-bottom: 40px;
+  color: #5a5a5a;
+}
+
+div.main-image img {
+  width: 100%;
+  max-width: 1782px;
+}
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 90px;
+  }
+}

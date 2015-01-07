@@ -2,6 +2,15 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "18270",
 "files": {
+	"\/basement\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/basement\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/bower_components\/bootstrap\/dist\/css\/bootstrap-theme.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -2692,11 +2701,29 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/contact\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/contact\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/css\/carousel.css": {
 		"fileType": 16,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/css\/carousel.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/css\/home-theme.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/home-theme.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -2719,7 +2746,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/data\/carousel.less": {
+	"\/data\/home-theme.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
 		"disableJavascript": 0,
@@ -2727,8 +2754,28 @@
 		"ieCompatibility": 1,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/data\/carousel.less",
-		"outputAbbreviatedPath": "\/css\/carousel.css",
+		"inputAbbreviatedPath": "\/data\/home-theme.less",
+		"outputAbbreviatedPath": "\/css\/home-theme.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
+	"\/data\/page-theme.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/data\/page-theme.less",
+		"outputAbbreviatedPath": "\/css\/page-theme.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -2745,7 +2792,7 @@
 		"disableJavascript": 0,
 		"fileType": 1,
 		"ieCompatibility": 1,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/data\/theme.less",
 		"outputAbbreviatedPath": "\/css\/theme.css",
@@ -2778,6 +2825,15 @@
 		"strictImports": 0,
 		"strictMath": 0,
 		"strictUnits": 0
+		},
+	"\/main-level\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/main-level\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/img\/Aerial Map 1.png": {
 		"fileType": 32768,
@@ -2988,6 +3044,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/formal-dining-room-300-400.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 241144,
+		"inputAbbreviatedPath": "\/img\/formal-dining-room-300-400.png",
+		"outputAbbreviatedPath": "\/img\/formal-dining-room-300-400.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/Front Entryway.JPG": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3076,6 +3143,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/great-room-300-400-2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 237706,
+		"inputAbbreviatedPath": "\/img\/great-room-300-400-2.png",
+		"outputAbbreviatedPath": "\/img\/great-room-300-400-2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/Hallway to Kitchen.JPG": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3083,6 +3161,17 @@
 		"initialSize": 1.74154e+06,
 		"inputAbbreviatedPath": "\/img\/Hallway to Kitchen.JPG",
 		"outputAbbreviatedPath": "\/img\/Hallway to Kitchen.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/hardwood-floors-150-200.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 58022,
+		"inputAbbreviatedPath": "\/img\/hardwood-floors-150-200.png",
+		"outputAbbreviatedPath": "\/img\/hardwood-floors-150-200.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3105,6 +3194,28 @@
 		"initialSize": 2.01863e+06,
 		"inputAbbreviatedPath": "\/img\/Huge Deck 2.JPG",
 		"outputAbbreviatedPath": "\/img\/Huge Deck 2.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/huge-deck-300-400-1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 252378,
+		"inputAbbreviatedPath": "\/img\/huge-deck-300-400-1.png",
+		"outputAbbreviatedPath": "\/img\/huge-deck-300-400-1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/huge-deck-300-400-2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 229103,
+		"inputAbbreviatedPath": "\/img\/huge-deck-300-400-2.png",
+		"outputAbbreviatedPath": "\/img\/huge-deck-300-400-2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3263,6 +3374,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/master-bedroom-300-400-1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 226267,
+		"inputAbbreviatedPath": "\/img\/master-bedroom-300-400-1.png",
+		"outputAbbreviatedPath": "\/img\/master-bedroom-300-400-1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/Post and Beam Construction Picture.JPG": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3270,6 +3392,28 @@
 		"initialSize": 2.03488e+06,
 		"inputAbbreviatedPath": "\/img\/Post and Beam Construction Picture.JPG",
 		"outputAbbreviatedPath": "\/img\/Post and Beam Construction Picture.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/post-and-beam-construction-150-200.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 58808,
+		"inputAbbreviatedPath": "\/img\/post-and-beam-construction-150-200.png",
+		"outputAbbreviatedPath": "\/img\/post-and-beam-construction-150-200.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/post-and-beam-construction-300-400.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 229718,
+		"inputAbbreviatedPath": "\/img\/post-and-beam-construction-300-400.png",
+		"outputAbbreviatedPath": "\/img\/post-and-beam-construction-300-400.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3292,6 +3436,17 @@
 		"initialSize": 2.08283e+06,
 		"inputAbbreviatedPath": "\/img\/Storage over Garage.JPG",
 		"outputAbbreviatedPath": "\/img\/Storage over Garage.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/storage-over-garage-150-200.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 63195,
+		"inputAbbreviatedPath": "\/img\/storage-over-garage-150-200.png",
+		"outputAbbreviatedPath": "\/img\/storage-over-garage-150-200.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3426,6 +3581,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/js\/collapse-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/collapse-min.js",
+		"outputAbbreviatedPath": "\/js\/collapse-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/js\/dropdown-min.js": {
 		"fileType": 64,
 		"ignore": 1,
@@ -3448,6 +3614,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/js\/jquery-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/jquery-min.js",
+		"outputAbbreviatedPath": "\/js\/jquery-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/js\/transition-min.js": {
 		"fileType": 64,
 		"ignore": 1,
@@ -3458,6 +3635,15 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/second-level\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/second-level\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		}
 	},
 "hooks": [
