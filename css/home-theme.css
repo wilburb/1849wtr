@@ -6379,6 +6379,8 @@ body {
 div.main-image img {
   width: 100%;
   max-width: 1782px;
+}
+div.main-image {
   margin: auto;
 }
 /* MARKETING CONTENT
