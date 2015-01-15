@@ -6379,6 +6379,7 @@ body {
 div.main-image img {
   width: 100%;
   max-width: 1782px;
+  margin: auto;
 }
 div.main-image {
   margin: auto;
