@@ -116,6 +116,7 @@ div.main-image img {
 }
 div.main-image {
   margin: auto;
+  position: relative;
 }
 
 /* MARKETING CONTENT
@@ -151,6 +152,15 @@ div.main-image {
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
+div.banner-caption p {
+  font-size: 200%;
+  padding: 15px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 33px;
+  margin: 0;
+}
 
 @media (min-width: 768px) {
   .featurette-heading {
@@ -161,5 +171,16 @@ div.main-image {
 @media (min-width: 992px) {
   .featurette-heading {
     margin-top: 90px;
+  }
+  div.banner-caption {
+    background-color: @section-bg-blue;
+    opacity: .8;
+    position: absolute;
+    bottom: 50px;
+    padding: 35px;
+    padding-left:10%;
+  }
+  div.banner-caption p {
+    font-size: 250%;
   }
 }
